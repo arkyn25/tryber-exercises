@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+.forms {
+  display: none;
+}
+
+.container {
+  background-color: lightgray;
+  display:flex;
+  flex-wrap: wrap;
+  width: 500px;
+  text-align: center;
+  margin: auto;
+}

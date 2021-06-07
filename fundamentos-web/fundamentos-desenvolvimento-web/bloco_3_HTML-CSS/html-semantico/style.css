@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto Slab', sans-serif, fantasy;
+    background-size: cover;
+    background-color: #FFF1E7;
+    
+}
+
+header {
+    height: 400px;
+    color: white;
+    position: relative;
+    width: 100%;
+    text-shadow: #2674b4;
+}
+.pic {
+    border: solid 5px rgb(194, 203, 216);
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 15px;
+    float: left;
+    margin: 20px;
+    width: 500px;
+}
+
+.right {
+    border: solid 5px rgb(194, 203, 216);
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 15px;
+    float: right;
+    margin: 20px;
+}
+.picture {
+    width:300px;
+    border: solid 5px rgb(194, 203, 216);
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 15px;
+    float: right;
+    margin: 20px;
+}
+.sub {
+    margin-left: 30px;
+    font-family: 'RocknRoll One', sans-serif;
+   
+}
+.head-text {
+    background-color:rgb(59, 110, 160);
+}
+h1, h2, h3 {
+    font-family: 'RocknRoll', sans-serif;
+    color: #003A6B;
+}
+
+section {
+    border: rgba(0, 0, 0, 0.1) 7px double;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    width: 1000px;
+}
+
+h1 {
+    line-height: 110%;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    margin:10px 20px;
+    font-size: 16px;
+    color: rgb(4, 55, 68);
+    font-family: 'RocknRoll One', sans-serif;
+
+}
+.heading-container {
+    padding: 10px;
+    margin-left:0px;
+}
+
+#title {
+    font-size: 4em;
+    position: absolute;
+    bottom: 10%;
+    left: 20px;
+    width: 500px;
+    color: rgb(4, 55, 68);
+}
+
+nav {
+    background-color: rgb(61, 98, 167);
+    box-shadow: 0 5px 15px #2674b4;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    line-height: 1;
+    padding: 10px 30px;
+    text-align: center;
+    font-family: 'RocknRoll One', sans-serif;    
+}
+nav a {
+    color:antiquewhite;
+    text-decoration: none;
+}
+
+#facts {
+    text-align: center;
+}
+.fact-text {
+    padding: 30px 50px;
+    line-height: 1.8em;
+}
+
+nav ul {
+    margin-left: 10px; 
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 2em;
+    font-size: 20px;
+    max-width: fit-content;
+}
+
+img {
+    width: 60%;
+}
+
+.heading-text table {
+    border: 1px solid rgba(47, 79, 79, 0.5);
+    margin: 0 auto 40px;
+    width: 300px;
+}
+  
+.heading-text table td {
+    padding-left: 20px;
+}
+  
+.heading-text table tr th {
+    background-color: rgba(36, 94, 160, 0.5);
+    border: 1px solid rgba(47, 79, 79, 0.5);
+    color: white;
+    line-height: 30px;
+    text-align: center;
+}
+
+section h3 {
+    text-align: center;
+}
+
+section ul {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+section li {
+    line-height: 1.5em;
+    padding: 5px 20px;
+    margin: 3px;
+    font-style: italic;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(61, 98, 167);
+    bottom: 0;
+    text-align: center;
+    padding: 0px 5px;
+    font-style: italic;
+    width: 100%;
+    position:fixed;
+}
+
+a {
+    color:antiquewhite ;
+}
+
+.ref {
+    color: black;
+}
+
+a:hover {
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 20px;
+    padding:2px;
+    border:1px solid;
+}
+
+div.referencias {
+    margin-bottom: 20px;
+    display:block;
+}
+aside {
+    float: right;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    top: 150px;
+    width: 250px;
+    margin: auto;
+}
