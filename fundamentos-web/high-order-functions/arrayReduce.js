@@ -3,7 +3,7 @@ const array = [1, 2, 3, 4];
 const reducer = (array) =>
   array.reduce((acumulador, valorAtual) => acumulador + valorAtual, 0);
 
-//console.log(reducer(array))
+console.log(reducer(array))
 
 // Utilizando Objetos, fazendo a soma somente dos "values"
 const arrayObj = [{ x: 1 }, { x: 2 }, { x: 3 }];
@@ -20,3 +20,4 @@ function flatten(props) {
   return props.reduce((acc, curr) => acc.concat(curr), []);
   // saída ['1', '2', '3', true, 4, 5, 6]
 }
+console.log(flatten(arrays))

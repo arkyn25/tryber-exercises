@@ -29,7 +29,7 @@ console.log(`os numeros ${oddsAndEvens.sort((a, b) => a - b)}`);
 //------------------------------------------------------
 
 // Parte II 1 Crie uma função que receba um número e retorne seu fatorial.
-const fatorial = number => {
+const fatorialFor = number => {
   let result = 1
 
   for (let index = 2; index <= number; index += 1) {
@@ -79,3 +79,11 @@ console.log(longestWord("Antonio foi no banheiro e não sabemos o que aconteceu"
 //-----------------------------------
 
 // Exercise 4 - Crie um código JavaScript com a seguinte especificação:
+
+const replaceWord = (word) => {
+  let string = "Tryber x aqui!";
+  let newWord = string.replace("x", word)
+  return newWord;
+}
+
+console.log(replaceWord("bebeto"))

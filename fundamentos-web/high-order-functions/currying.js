@@ -56,7 +56,7 @@ const greaterThan10 = greaterThan(10);
 console.log(greaterThan10(15));
 
 
-const doingThings = (action, msg) => {
+const doingThings = (msg, action) => {
   if (msg === "wakeUp") {
     action('Acordando!!');      
   } else if (msg === "breakFast") {
@@ -66,4 +66,4 @@ const doingThings = (action, msg) => {
   }
 };
 
-doingThings(console.log, 'breakFast');
+doingThings('breakFast', console.log);

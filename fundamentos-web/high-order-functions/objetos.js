@@ -24,7 +24,7 @@ const adicionarNovaChave = (obj, key, value) => {
   obj[key] = value;
 };
 adicionarNovaChave(lesson2, "turno", "manhã");
-//console.log(lesson2)
+console.log(lesson2)
 
 // props é o parâmetro que vai receber, no caso objeto
 // Object.keys, retorna os valores das keys dentro do objeto

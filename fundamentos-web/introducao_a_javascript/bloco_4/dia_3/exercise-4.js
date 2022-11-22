@@ -26,4 +26,4 @@ for (lineIndex = 0; lineIndex <= meio; lineIndex += 1) {
   lineInput = '';
   right -= 1;
   left += 1;
-};
+}

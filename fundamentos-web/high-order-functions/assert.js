@@ -26,14 +26,14 @@ function myRemove(arr, item) {
       newArr.push(arr[index]);
     }
   }
-  //console.log(newArr);
+  console.log(newArr);
   return newArr;
 }
 
 function myRemoveWithoutCopy(arr, item) {
   for (let index = 0, len = arr.length; index < len; index += 1) {
     if (arr[index] === item) {
-      arr.splice(i, 1);
+      arr.splice(index, 1);
       index -= 1;
       len -= 1;
     }
@@ -41,6 +41,7 @@ function myRemoveWithoutCopy(arr, item) {
   return arr;
 }
 
+console.log(myRemoveWithoutCopy("arlen"))
 // Verifique se a chamada myRemoveWithoutCopy([1, 2, 3, 4], 3) retorna o array esperado [1, 2, 4]
 // deepStrictEqual retorna o erro se não forem iguais, verifica internamente no objeto ou array
 assert.deepStrictEqual(myRemove([1, 2, 3, 4], 3), [1, 2, 4]);
@@ -167,7 +168,7 @@ const removeVowels = (word) => {
       results.push(characters[index]);
     }
   }
-  return results.join('');;
+  return results.join('');
 };
 
 

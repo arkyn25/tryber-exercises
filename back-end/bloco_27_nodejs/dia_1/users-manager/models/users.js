@@ -16,8 +16,8 @@ const isValid = ({ firstName, lastName, email, password }) => {
   if (user.includes(undefined) || user.includes(null) || user.includes('')) {
     return false;
 
-    return passwordRegex.test(password);
   }
+  return passwordRegex.test(password);
 }
 
 const create = ({ firstName, lastName, email, password}) => {

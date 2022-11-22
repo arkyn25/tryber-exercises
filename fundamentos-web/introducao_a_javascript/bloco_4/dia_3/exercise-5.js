@@ -23,4 +23,4 @@ for (let line = 1; line <= middle; line += 1) {
   left -= 1;
   right += 1;
   console.log(spaceLine);
-};
+}
